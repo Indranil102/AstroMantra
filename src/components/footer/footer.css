@@ -1,0 +1,86 @@
+.footer-start {
+    background-color: #454545;
+    color: white;
+    height: 90vh;
+    position: relative;
+}
+
+.about-mantra {
+    margin-left: 78px;
+    margin-top: 40px;
+    position: absolute;
+    width: 90vw;
+}
+
+.about-mantra h2 {
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.about-mantra p {
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 350;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 44px;
+}
+
+.about-mantra hr {
+    margin-top: 40px;
+}
+/* .footer-deatails{
+    position: absolute;
+
+} */
+
+.horoscope-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.horoscopeD h2{
+    font-weight: 500;
+    font-size: 35px;
+    
+}
+.horoscopeD ul{
+    margin-top: 25px;
+    list-style: none;
+}
+.horoscopeD ul li{
+    /* background-color: aliceblue; */
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.horoscopeD ul li a {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.contact-div{
+    margin-top: 15px;
+}
+.contact-div h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.contact-div img{
+    
+    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.email-foot h3{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.email-foot p{
+    font-size: 25px;
+    margin-top: 0px;
+}

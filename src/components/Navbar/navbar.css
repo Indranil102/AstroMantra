@@ -1,0 +1,54 @@
+.navbar{
+    
+    
+    /* background-color: aquamarine; */
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    
+}
+.heading{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.heading h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.sub{
+    margin-left: 40px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 100vw;
+}
+.sub-heading ul{
+    display: flex;
+    margin-left: 550px;
+    gap: 70px;
+    list-style: none;
+
+}
+
+.sub-heading ul li{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sub-heading-two ul{
+    margin-top: 8px;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    display: flex;
+    margin-left: 650px;
+    gap: 80px;
+    list-style: none;
+}
+.sub-heading-two ul li {
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+
+}
