@@ -3,6 +3,8 @@ import AstroGuru from '../../assets/astrologer_baba.webp'
 import { LuMessageCircleMore } from "react-icons/lu";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoCallOutline } from "react-icons/io5";
+import hifive from '../../assets/pooja.png'
+import { TbSunset2 } from "react-icons/tb";
 const HomePage = () => {
   return (
     <div  className='Homepage'>
@@ -46,19 +48,27 @@ const HomePage = () => {
          <div className="banner-box-sub">
            <div className="banner-box-img">
             <span aria-hidden="true">
-               <LuMessageCircleMore size={40} color='white' />
+               <img src={hifive} alt="book pooja" />
               </span>
                      </div>
                 <h2>Book Pooja</h2>
          </div>
 
          </div>
-        
+      </div>
 
-         
-
-
-       
+      <div className="astro-services-home">
+        <h2>Complimentary astrology services</h2>
+        <div className='astro-service-home-box'>
+          <div className='astro-service-home-box-sub'>
+            <div className='astro-service-home-box-subtw0'>
+              <span >
+            <TbSunset2  size={40} color='black' strokeWidth={1} className='astro-home-service-icons'/> </span>
+            <h3>Free Kundali</h3>
+            <p>Reading your Today’s horoscope is one of the best ways to predict  your future. </p>
+            </div>
+          </div>
+        </div>
       </div>
       
     </div>

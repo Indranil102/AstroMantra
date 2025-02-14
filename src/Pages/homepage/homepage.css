@@ -1,6 +1,6 @@
 .banner{
     background-color: black;
-    height: 65vh;
+    height: 68vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,6 @@
 .banner-box{
     position: absolute;
     background: linear-gradient(to right, #F1E02A, #F7EE88, #EFEFEF, #F1E02A,#F1E02A);
-
     margin-left: 108px;
     margin-top: 60px;
     width: 88vw;
@@ -23,14 +22,12 @@
 
 }
 .banner-box img{
-    height: 380px;
+    height: 312px;
     margin-left: 300px;
-    margin-top: 16px;
-
 }
 .banner-box-text{
-    margin-top: 55px;
-    margin-left: 120px;
+    margin-top: 34px;
+    margin-left: 90px;
     /* background-color: antiquewhite; */
     width: 100%;
     
@@ -75,21 +72,21 @@
 .banner-box-su{
     display: flex;
     margin-top: 40px;
-    margin-left: 170px;
-    gap: 120px;
+    margin-left: 130px;
+    gap: 50px;
 
     
 }
 .banner-box-sub{
     
     background-color: #EFEFEF;
-    
     margin-top: 23%;
     height: 125px;
-    width: 300px;
+    width: 290px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 
 }
 
@@ -115,7 +112,7 @@
     background-color: #2e4ab1;
   }
   .banner-box-sub:nth-child(4) .banner-box-img {
-    background-color: #ffa91f;
+    background-color: #ffb53f;
   }
 .banner-box-img span {
     display: flex;
@@ -132,4 +129,98 @@
         color: #333;
         
       
+}
+.banner-box-img {
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.banner-box-img img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain; 
+    filter: brightness(0) invert(1)
+}
+
+
+.astro-services-home{
+    background-color: #EEEEEE;
+    position: relative;
+    height: 60vh;
+    display: flex;
+   
+}
+
+.astro-services-home h2{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 580px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.astro-service-home-box{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.astro-service-home-box-sub{
+    position: absolute;
+
+    height: 350px;
+    width: 288px;
+    background-color: #F1E02A;
+    border-radius: 20px;
+}
+
+.astro-service-home-box-subtw0{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.astro-service-home-box-subtw0 span{
+    width: 90px;
+    height: 90px;
+    background-color: #fff700;
+    border-radius: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.astro-home-service-icons{
+    position: relative;
+    z-index: 2;
+   
+    
+
+}
+.astro-service-home-box-subtw0 h3{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #8C8C8C;
+}
+.astro-service-home-box-subtw0 p{
+    margin: 0;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #8F8E8E;
 }
