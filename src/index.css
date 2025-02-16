@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=PT+Sans+Caption:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +10,16 @@
     font-family: "Josefin Sans", serif;
         font-weight: 300;
         font-style: normal;
+}
+
+:root{
+    --bg-color-main:#ffffff;
+    --bg-color-sub-main:#EEEEEE;
+    --banner-bg-color: linear-gradient(to right, #F1E02A, #F7EE88, #EFEFEF, #F1E02A,#F1E02A);
+    --text-color-main:#FFFFFF;
+    --text-color-sub-main:rgba(0, 0, 0, 0.7);
+    --button-bg-color: rgba(0, 0, 0, 1);
+    --yellow-bg-color: #EFDE21;
+    --footer-bg-color: #454545;
+    --banner-text-color:#FFFFFF
 }

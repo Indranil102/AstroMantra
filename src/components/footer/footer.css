@@ -1,6 +1,6 @@
 .footer-start {
-    background-color: #454545;
-    color: white;
+    background-color: var(--footer-bg-color);
+    color: var(--text-color-main);
     height: 90vh;
     position: relative;
 }

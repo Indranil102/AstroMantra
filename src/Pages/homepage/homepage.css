@@ -4,13 +4,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-   
-
-
 }
 .banner-box{
     position: absolute;
-    background: linear-gradient(to right, #F1E02A, #F7EE88, #EFEFEF, #F1E02A,#F1E02A);
+    /* background: linear-gradient(to right, #F1E02A, #F7EE88, #EFEFEF, #F1E02A,#F1E02A); */
+    background: var(--banner-bg-color);
     margin-left: 108px;
     margin-top: 60px;
     width: 88vw;
@@ -57,7 +55,7 @@
 
 .banner-box-text button{
     margin-top: 30px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--button-bg-color);
     color: aliceblue;
     width: 180px;
     height: 60px;
