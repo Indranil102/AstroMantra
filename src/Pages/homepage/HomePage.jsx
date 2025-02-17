@@ -103,6 +103,26 @@ const HomePage = () => {
 
        
       </div>
+
+      <div className='MantraCustomer1'>
+        
+        <div className='customer-N'>
+          <h2>4200+</h2>
+        <p>Total Astrologers</p>
+        </div>
+        <div className='customer-N'>
+          <h2>1304 <span>Million Minutes </span></h2>
+        <p>Total Chat/Call minutes</p>
+        </div>
+        <div className='customer-N'>
+          <h2>85.4 <span>Million</span></h2>
+        <p>Total Customers</p>
+        </div>
+      </div>
+
+      <div>
+        update
+      </div>
       
     </div>
   )

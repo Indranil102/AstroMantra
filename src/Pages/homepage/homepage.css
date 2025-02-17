@@ -201,7 +201,7 @@
 .astro-service-home-box-subtw0 span{
     width: 90px;
     height: 90px;
-    background-color: #fff700;
+    background-color: var(--bg);
     border-radius: 50px;
      display: flex;
     justify-content: center;
@@ -228,4 +228,30 @@
     font-size: 25px;
     font-weight: 400;
     color: #8F8E8E;
+}
+.MantraCustomer1{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    align-items: center;
+    background: var(--customer-bg-color);
+    
+}
+.customer-N h2{
+    color: var(--text-color-main);
+    font-size: 40px;
+    font-weight: 700;
+    gap: 4px;
+}
+.customer-N h2 span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.customer-N p{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: var(--text-color-main);
+    
 }
