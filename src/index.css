@@ -7,8 +7,11 @@
     --bg-color-main:#ffffff;
     --bg-color-sub-main:#EEEEEE;
     --banner-bg-color: linear-gradient(to right, #F1E02A, #F7EE88, #EFEFEF, #F1E02A,#F1E02A);
+
     --text-color-main:#FFFFFF;
-    --text-color-sub-main:rgba(0, 0, 0, 0.7);
+    --text-color-main1:#000000;
+    --text-color-sub-main:rgba(0, 0, 0, 0.5);
+    
     --button-bg-color: rgba(0, 0, 0, 1);
     --yellow-bg-color: #EFDE21;
     --footer-bg-color: #454545;

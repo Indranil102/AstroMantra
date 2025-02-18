@@ -6,6 +6,7 @@ import { IoCallOutline } from "react-icons/io5";
 import hifive from '../../assets/pooja.png'
 import { TbSunset2 } from "react-icons/tb";
 import { IoIosArrowDropleft } from "react-icons/io";
+import AstroNews from '../../assets/astronews.webp';
 const HomePage = () => {
   return (
     <div  className='Homepage'>
@@ -97,6 +98,7 @@ const HomePage = () => {
             <p>Reading your Today’s horoscope is one of the best ways to predict  your future. </p>
             </div>
           </div>
+          <IoIosArrowDropleft size={40} color='gray' strokeWidth={1}  className='change-icons'/>
         
 
         </div>
@@ -120,8 +122,40 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div>
-        update
+      <div className='Mantra-News'>
+        <h2>Update and  News</h2>
+        <div className='Mantra-News-Boxs'>
+        <div className='Mantra-News-Box'>
+          <div className='News-img'><img src={AstroNews} alt="news" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo suscipit dolorum repellendus porro </p>
+
+          <span>2 feb</span>
+          
+          
+          </div>
+          </div>
+          <div className='Mantra-News-Box'>
+          <div className='News-img'><img src={AstroNews} alt="news" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo suscipit dolorum repellendus porro </p>
+
+          <span>2 feb</span>
+          
+          
+          </div>
+          </div>
+          <div className='Mantra-News-Box'>
+          <div className='News-img'><img src={AstroNews} alt="news" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati explicabo suscipit dolorum repellendus porro </p>
+
+          <span>2 feb</span>
+          
+          
+          </div>
+          </div>
+        
+        </div>
+        
+        
       </div>
       
     </div>
