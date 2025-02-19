@@ -157,6 +157,19 @@ const HomePage = () => {
         
         
       </div>
+
+      <div className='Blog-details'>
+        <h2>Latest from Blog</h2>
+        <div className='Blog-Box'>
+          <div className='Blog-Box-sub'>
+            <img src={AstroNews} alt="blog" />
+            <span>icon 123</span>
+            
+            <p>lrem</p>
+
+          </div>
+        </div>
+      </div>
       
     </div>
   )
