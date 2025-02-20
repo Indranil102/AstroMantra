@@ -165,7 +165,14 @@ const HomePage = () => {
             <img src={AstroNews} alt="blog" />
             <span>icon 123</span>
             
-            <p>lrem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod necessitatibus
+
+            </p>
+            <br />
+            <div className='date-name'>
+            <h6>AMit</h6>
+            <h6 >6nov</h6>
+            </div>
 
           </div>
         </div>
